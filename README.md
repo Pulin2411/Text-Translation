@@ -16,3 +16,9 @@ It allows users to send text along with source and target languages, and get a t
 
 ## 🛠️ Project Structure
 
+| Component     | Technology Used   |
+| ------------- | ----------------- |
+| API Framework | FastAPI           |
+| AI Model      | Google Gemini-1.5 |
+| HTTP Client   | Requests          |
+| Server        | Uvicorn           |
