@@ -5,7 +5,7 @@ import os
 
 app = FastAPI()
 
-GEMINI_API_KEY = "AIzaSyBdeglrdIwYD_9D2WvTOz_bFsocGwJlOKE"
+GEMINI_API_KEY = "YOUR API KEY"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 class TranslationRequest(BaseModel):
@@ -39,3 +39,4 @@ def translate_text(request: TranslationRequest):
     translated_text = data.get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
 
     return {"translated_text": translated_text}
+
