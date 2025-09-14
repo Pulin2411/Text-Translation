@@ -22,3 +22,6 @@ It allows users to send text along with source and target languages, and get a t
 | AI Model      | Google Gemini-1.5 |
 | HTTP Client   | Requests          |
 | Server        | Uvicorn           |
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b2d73591-2fcf-41c2-9031-744ff3bf720c" />
+
